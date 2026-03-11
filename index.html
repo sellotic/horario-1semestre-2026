@@ -122,10 +122,11 @@
         // --- DATOS ---
         const initialData = [
             { id: 1, carrera: "Pedagogía Inglés Valpo.", codigo: "SEL 3113-1", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Martes", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 5", docente: "Marcela Vera" },
-            { id: 2, carrera: "Pedagogía Castellano San Felipe", codigo: "SEL 3113-2", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Miércoles", bloque: "2 y 3", hora: "9:50-12:15", lab: "San Felipe", docente: "Daniela Salinas" },
-            { id: 3, carrera: "Pedagogía Inglés San Felipe", codigo: "SEL 3113-3", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 20, dia: "Miércoles", bloque: "5 y 6", hora: "14:00-16:45", lab: "San Felipe", docente: "Daniela Salinas" },
+            // Oñembopyahu: oñemoĩ Lab San Felipe
+            { id: 2, carrera: "Pedagogía Castellano San Felipe", codigo: "SEL 3113-2", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Miércoles", bloque: "2 y 3", hora: "9:50-12:15", lab: "Lab San Felipe", docente: "Germán Flores" },
+            // Oñembopyahu: oñemoĩ Lab San Felipe
+            { id: 3, carrera: "Pedagogía Inglés San Felipe", codigo: "SEL 3113-3", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 20, dia: "Miércoles", bloque: "5 y 6", hora: "14:00-16:45", lab: "Lab San Felipe", docente: "Germán Flores" },
             { id: 4, carrera: "Pedagogía en Filosofía", codigo: "SEL 3113-4", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 8, dia: "Martes", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 6", docente: "José Miranda" },
-            // Actualizado a Martes 11:00-13:45 con Francisca Valdés
             { id: 5, carrera: "Nutrición y dietética", codigo: "SEL 3113-5", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Martes", bloque: "3 y 4", hora: "11:00-13:45", lab: "Casa Central 6", docente: "Francisca Valdés" },
             { id: 6, carrera: "Nutrición y dietética", codigo: "SEL 3113-6", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 20, dia: "Miércoles", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 6", docente: "Macarena Rojas" },
             { id: 7, carrera: "Fonoaudiología", codigo: "SEL 3113-7", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Martes", bloque: "3 y 4", hora: "11:00-13:45", lab: "Lab.Fac.Ciencias 102", docente: "José Miranda" },
@@ -149,10 +150,11 @@
             { id: 22, carrera: "Dibujante Proyectista", codigo: "TIC 1111-4", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 15, dia: "Lunes", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 5", docente: "Francisca Valdés" },
             { id: 23, carrera: "Licenciatura en Arte", codigo: "TIC 1111-4", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 30, dia: "Lunes", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 5", docente: "Francisca Valdés" },
             { id: 24, carrera: "Ped. Educación Física Damas", codigo: "SEL 3113-14", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Jueves", bloque: "3 y 4", hora: "11:00-13:45", lab: "Casa Central 5", docente: "Francisca Valdés" },
-            { id: 25, carrera: "Ped. Educación Física Varones", codigo: "SEL 3113-15", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Jueves", bloque: "3 y 4", hora: "11:00-13:45", lab: "Casa Central 6", docente: "Daniela Salinas" },
+            // Docente eliminado, queda "Por asignar"
+            { id: 25, carrera: "Ped. Educación Física Varones", codigo: "SEL 3113-15", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Jueves", bloque: "3 y 4", hora: "11:00-13:45", lab: "Casa Central 6", docente: "Por asignar" },
             { id: 26, carrera: "Ped. Educación Física Damas", codigo: "TIC 1111-7", asignatura: "TIC para la Vida Académica", cupos: 40, dia: "Jueves", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 5", docente: "Marcela Vera" },
-            { id: 27, carrera: "Ped. Educación Física Varones", codigo: "TIC 1111-8", asignatura: "TIC para la Vida Académica", cupos: 40, dia: "Jueves", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 6", docente: "Daniela Salinas" },
-            // Actualizado nombre de carrera: "Pedagogía Ed. Diferencial Valpo."
+            // Docente eliminado, queda "Por asignar"
+            { id: 27, carrera: "Ped. Educación Física Varones", codigo: "TIC 1111-8", asignatura: "TIC para la Vida Académica", cupos: 40, dia: "Jueves", bloque: "1 y 2", hora: "8:00-10:45", lab: "Casa Central 6", docente: "Por asignar" },
             { id: 28, carrera: "Pedagogía Ed. Diferencial Valpo.", codigo: "SEL 3113-17", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 40, dia: "Jueves", bloque: "1 y 2", hora: "8:00-10:45", lab: "Lab. Fac. Artes B-401", docente: "José Miranda" },
             { id: 29, carrera: "Pedagogía Ed. Diferencial San Felipe", codigo: "SEL 3113-16", asignatura: "EMPLEO DE TIC PARA LA VIDA ACADÉMICA", cupos: 46, dia: "Viernes", bloque: "5 y 6", hora: "14:00-16:45", lab: "Lab San Felipe", docente: "Germán Flores" },
             // Actualizado nombre de carrera: "Pedagogía Ed. Básica"
